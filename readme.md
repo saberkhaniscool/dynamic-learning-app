@@ -2,7 +2,7 @@
 
 ## Overview
 
-Dynamic Learning is meant to be an online platform where teachers and programmers collaborate to create and share STEM lessons which makes use of interactive visualisations created in p5.js. The main objective in GSoC 2018 was to lay down a basic structure of the app which will act as a foundation for future developments and will provide an idea of what the app is all about to the teacher community and future contributors.
+Dynamic Learning a an online platform where teachers and programmers collaborate to create and share STEM lessons. The platform makes use of interactive visualisations created in p5.js. This project was started in the 2018 Google Summer of Code GSOC program with the objective of laying down a basic structure for the app which will act as a foundation for future developments and will provide an idea of what the app is all about to the teacher community and future contributors.
 
 The three core objectives of the web app are-
 
@@ -44,7 +44,7 @@ of the components are provided in the components' js files.
 
 ##### Component - CreateLessonPlan
 
-This is the area where teachers create the lessonplans. It is basically a drawing app on which simulations can be embedded and annotations can be made. Each lessonplan consists of a sequence of slides which is implemented as an array. Each element in the array consists of a note of string type and an array of simulations.
+This is the area where teachers create the lesson plans. It is a drawing app on which simulations can be embedded and annotations can be made. Each lesson plan consists of a sequence of slides which is implemented as an array. Each element in the array consists of a note of string type and an array of simulations.
 
 Each simulation is an iframe which is obtained from the online p5 text editor export feature.
 
@@ -52,7 +52,7 @@ Each simulation is an iframe which is obtained from the online p5 text editor ex
 
 ##### Components - Login, Signup
 
-The login and sign up features are made by making use of the inbuilt authentication tools in Meteor.
+The login and sign up features are made by making use of the built-in  authentication tools in Meteor.
 
 ### 3) The lessonplans, simulations, lessons organization
 
@@ -64,25 +64,25 @@ React Sortable tree component (https://github.com/frontend-collective/react-sort
 
 ##### Component - Request
 
-For each lessonplan, a request forum can be created by the teacher where a request for a new simulation can be made. These requests are visible to all the other users of the app and anyone logged in can participate in the discussion for the development of a new simulation.
+For each lesson plan, a request forum can be created by the teacher where a request for a new simulation can be made. These requests are visible to all the other users of the app and anyone logged in can participate in the discussion for the development of a new simulation.
 
 ### 5) Sharing of lessonplans, lessons and simulations
 
 ##### Components - SharedSims, SharedLessonPlans, SharedLessons
 
-The users can share lessonplans, lessons and the simulations with the other users if they want. I've used the meteor easy search component for implementing the search (https://github.com/matteodem/meteor-easy-search)
+The users can share lesson plans, actual lessons and the simulations with the other users if they want. I've used the meteor easy search component for implementing the search (https://github.com/matteodem/meteor-easy-search)
 
 ### 6) Creation of Lessons
 
 ##### Component - Lesson
 
-This is the component where we can create lessons. Each lesson consists of a series of slides and on each slide there will be a video and the associated simulations. When the creator of the lesson views the component, he will have options to edit the lesson (Add more slides, add video, add simulations) and for others, they can only view the lesson.
+This is the component where we can create lessons. Each lesson consists of a series of slides and on each slide there will be a video and the associated simulations. When the creator of the lesson views the component, he will have options to edit the lesson (add slides, add video, add simulations) and for others, they can only view the lesson.
 
 ### 7) Exploring the App
 
 ##### Component - Explore
 
-Users who are not logged in visiting the app will be able to view all the lessons, lessonplans and request forums that have been created and shared with public so that they get an idea about what the app.
+Users who are not logged will be able to view all the lessons, lesson plans and request forums that have been created and shared with public so that they get an idea about what the app.
 
 #### Above are the main React Components of the app and the you can find the other React Components in the'client/ui/components' folder.
 
@@ -110,7 +110,7 @@ You can email me to jithunni.ks@gmail.com or you can create an issue in the repo
 
 ## Acknowledgement
 
-I'm extremenly thankful to Processing Foundation for having the faith in me and giving me an opportunity to start the project. There have been several situations where I have been stuck. I express my gratitude to my mentor Saber Khan, other members of Proessing Foundation Cassie Tarakajian, Lauren McCathy, Daniel Shiffman, Cassey Reas for getting back to me and providing me with intelligent advices and suggestions when I contacted them.
+I'm extremenly thankful to Processing Foundation for having the faith in me and giving me an opportunity to start the project. There have been several situations where I have been stuck. I express my gratitude to my mentor Saber Khan, other members of Proessing Foundation Cassie Tarakajian, Lauren McCathy, Daniel Shiffman, Casey Reas for getting back to me and providing me with intelligent advices and suggestions when I contacted them.
 
 I've started this project and doing it with my friend Anupam Asok. I'm so greatful to him for being with me in the development of this project.
 
